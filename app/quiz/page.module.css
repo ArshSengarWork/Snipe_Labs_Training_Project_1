@@ -1,0 +1,81 @@
+.header {
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    box-shadow: 0rem 0.2rem 1.6rem rgba(0, 0, 0, 0.2);
+    border: 0.02rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 1.6rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(0.2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(0.2rem);
+}
+
+.heading {
+    text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF;
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.highlight_yellow {
+    color: #CFFF04;
+    animation: highlight_yellow 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes highlight_yellow {
+    from {
+        text-shadow: 0 0 10px #CFFF04, 0 0 20px #CFFF04, 0 0 30px #CFFF04, 0 0 40px #CFFF04;
+    }
+
+    to {
+        text-shadow: 0 0 10px #FCF55F, 0 0 20px #FCF55F, 0 0 30px #FCF55F, 0 0 40px #FCF55F, 0 0 50px #FCF55F, 0 0 60px #FCF55F;
+    }
+}
+
+.highlight_green {
+    text-transform: uppercase;
+    color: #0FFF50;
+    animation: highlight_green 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes highlight_green {
+    from {
+        text-shadow: 0 0 10px #0FFF50, 0 0 20px #0FFF50, 0 0 30px #0FFF50, 0 0 40px #0FFF50;
+    }
+
+    to {
+        text-shadow: 0 0 10px #7CFC00, 0 0 20px #7CFC00, 0 0 30px #7CFC00, 0 0 40px #7CFC00, 0 0 50px #7CFC00, 0 0 60px #7CFC00;
+    }
+}
+
+.highlight_red {
+    text-transform: uppercase;
+    color: #FF3131;
+    animation: highlight_red 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes highlight_red {
+    from {
+        text-shadow: 0 0 10px #FF3131, 0 0 20px #FF3131, 0 0 30px #FF3131, 0 0 40px #FF3131;
+    }
+
+    to {
+        text-shadow: 0 0 10px #FF2400, 0 0 20px #FF2400, 0 0 30px #FF2400, 0 0 40px #FF2400, 0 0 50px #FF2400, 0 0 60px #FF2400;
+    }
+}
+
+.main {
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+}

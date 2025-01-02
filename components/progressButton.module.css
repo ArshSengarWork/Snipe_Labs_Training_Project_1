@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progress_button {
+    margin-top: 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+    padding: 0.4rem 0.8rem;
+    background-image: linear-gradient(90deg, #202225, #2F3136);
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+    font-family: "Turret Road", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.progress_button:hover,
+.progress_button:active {
+    background-image: linear-gradient(90deg, #292B2F, #40444B);
+    text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+}
